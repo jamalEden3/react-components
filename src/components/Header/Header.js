@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
       <Wrapper>
-        <h1>header</h1>
+        <Link to='/form'>Form</Link>
       </Wrapper>
     );
   }
@@ -14,3 +15,4 @@ h1{ color: var(--clr-accent-100);
  
 `
   export default Header;
+
