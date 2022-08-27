@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
   return (
-    <div>Navigation</div>
+    <div>
+      <Link to='form'>To Form Page</Link>
+    </div>
   )
 }
 
